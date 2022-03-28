@@ -22,6 +22,7 @@ Save the Clean data to the file
 # CODE
 
 import pandas as pd 
+
 df=pd.read_csv('Data_set.csv')
 print('Befor Cleansing the data:')
 print(df.isnull().sum())
