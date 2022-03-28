@@ -20,7 +20,7 @@ Save the Clean data to the file
 
 
 # CODE
-~~~
+
 import pandas as pd 
 df=pd.read_csv('Data_set.csv')
 print('Befor Cleansing the data:')
@@ -34,7 +34,7 @@ df['watchers']=df['watchers'].fillna(df['watchers'].mean())
 print(df)
 print('After Cleansing the data:')
 print(df.isnull().sum())
-~~~
+
 # OUPUT
 ![outout](EX1(1).png)
 ![output](EX1(2).png)
